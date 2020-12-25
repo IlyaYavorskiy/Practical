@@ -1,7 +1,7 @@
 def my_func(x, y):
     power = 1
     for i in range(abs(y)):
-        power *= x
+        power /= x
         i += 1
     return power
 
